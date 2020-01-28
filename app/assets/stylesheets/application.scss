@@ -1,0 +1,246 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+
+/* GENERAL */
+
+body {
+	font-family: 'Sigmar One', cursive;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: bold;
+	color: #3E4B54;
+}
+
+img {
+	max-width: 100%;
+	height:	auto;
+}
+
+section .heading {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+#education b{
+	font-weight: bold;
+	color: black;
+}
+
+#about b{
+	font-weight: bold;
+	color: black;
+}
+
+/* VIEW */
+
+#view {
+	padding-top: 90px;
+	background-image: url(asset-path("fond2.jpg"));
+	background-size: cover;
+	height: 775px;
+	background-repeat: no-repeat;
+}
+
+.profil-picture {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.rounded-circle {
+	border: 1px solid #8EA299;
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+
+#view .heading h2{
+	text-transform: uppercase;
+	color: #3E4B54;
+}
+
+#view .heading h5{
+	color: #3E4B54;
+}
+
+.button1{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #8EA299;
+	border: 1px solid #8EA299;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 18px 50px;
+	border-radius: 3px;
+	transition: all 0.2s ease-in 0s;
+}
+
+.button1:hover{
+	background:	#8EA299;
+	color: #fff;
+	text-decoration: none;
+}
+
+.fa-arrow-circle-down{
+	margin-top: 250px;
+	color: #fff;
+	transition: all 0.2s ease-in 0s;
+}
+
+.fa-arrow-circle-down:hover{
+	color: #3E4B54;
+}
+
+/* ABOUT */
+
+#about {
+	padding-top: 200px;
+	height: 775px;
+}
+
+.text{
+	padding-right: 10px;
+	padding-left: 20px;
+	
+}
+
+#about .fab{
+	color: #8EA299;
+	margin: 10px;
+}
+
+#about .fab:hover{
+	color: #3E4B54;
+	margin: 10px;
+}
+
+#about .fas{
+	color: #8EA299;
+	margin: 10px;
+}
+
+#about .fas:hover{
+	color: #3E4B54;
+	margin: 10px;
+}
+
+#about .left{
+	margin-right: 40px;
+}
+
+#about .right{
+	margin-left: 40px;
+}
+
+
+/* SKILLS */
+
+#skills {
+	padding-top: 100px;
+	height: 775px;
+	background-color: #3E4B54;
+}
+
+#skills hr{
+	width: 130px;
+	height: 2px;
+	background: #8EA299;
+	margin-bottom: 40px;
+}
+
+#skills .heading h2{
+	color: #fff;	
+	margin-bottom: 50px;
+}
+
+#skills .progress{
+	height: 35px;
+	margin: 40px 20px;
+	background: #fff;
+}
+
+#skills .progress-bar{
+	background: #8EA299;
+}
+
+#skills h5{
+	color: #fff;
+	padding-top: 9px;
+}
+
+#skills h4{
+	color: #fff;	
+}
+
+/* EDUCATION */
+
+#education {
+	padding-top: 100px;
+	height: 775px;
+	background-color: #fff;
+}
+
+/* FOOTER */
+
+footer{
+	background-color: #3E4B54;
+	padding: 20px 0 1px;
+}
+.fa-arrow-circle-up{
+	color: #fff;
+	transition: all 0.2s ease-in 0s;
+}
+
+.fa-arrow-circle-up:hover{
+	color: #8EA299;
+}
+
+footer p{
+	margin: 20px;
+	color: lightgray;
+}
+
+/* NAVBAR */
+
+.navbar{
+	background: #8EA299;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navbar-brand{
+	color: #fff;	
+}
+
+.navbar-collapse{
+	text-align: center;
+}
+
+.nav-link{
+	color: #fff;
+	margin-left: 40px;
+}
+
+.nav-link:hover{
+	color: #3E4B54;
+}
+
+.fa-bars{
+	color: #fff;
+}
