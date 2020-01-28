@@ -13,12 +13,13 @@
  *= require_tree .
  *= require_self
  */
-@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 /* GENERAL */
 
 body {
-	font-family: 'Sigmar One', cursive;
+	font-family: 'Nunito', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -52,7 +53,7 @@ section .heading {
 	padding-top: 90px;
 	background-image: url(asset-path("fond2.jpg"));
 	background-size: cover;
-	height: 775px;
+	height: 100%;
 	background-repeat: no-repeat;
 }
 
@@ -96,7 +97,7 @@ section .heading {
 }
 
 .fa-arrow-circle-down{
-	margin-top: 250px;
+	margin-top: 210px;
 	color: #fff;
 	transition: all 0.2s ease-in 0s;
 }
@@ -108,8 +109,9 @@ section .heading {
 /* ABOUT */
 
 #about {
-	padding-top: 200px;
-	height: 775px;
+	padding-top: 150px;
+	padding-bottom: 140px;
+	height: 100%;
 }
 
 .text{
@@ -151,7 +153,8 @@ section .heading {
 
 #skills {
 	padding-top: 100px;
-	height: 775px;
+	padding-bottom: 100px;
+	height: 100%;
 	background-color: #3E4B54;
 }
 
@@ -189,8 +192,9 @@ section .heading {
 /* EDUCATION */
 
 #education {
-	padding-top: 100px;
-	height: 775px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	height: 100%;
 	background-color: #fff;
 }
 
@@ -218,7 +222,7 @@ footer p{
 
 .navbar{
 	background: #8EA299;
-	letter-spacing: 4px;
+	letter-spacing: 3px;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
